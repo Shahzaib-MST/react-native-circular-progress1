@@ -100,7 +100,7 @@ export default class CircularProgress extends React.PureComponent {
 
     return (
       <View style={style}>
-        <Svg width={size + padding} height={size + padding}>
+        <Svg width={size + padding + 1} height={size + padding + 1}>
           <G rotation={rotation} originX={(size + padding) / 2} originY={(size + padding) / 2}>
             {backgroundColor && (
               <Path
